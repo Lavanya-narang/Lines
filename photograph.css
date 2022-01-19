@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
+body {
+  background-color: rgb(41, 1, 41);
+  margin: 0px;
+  padding: 0;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+#nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 5px 15px;
+}
+#nav::before {
+  background: url("purple.jpg");
+  content: "";
+  /* background-color: violet;*/
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 90px;
+  width: 100%;
+  opacity: 0.4;
+}
+#nav ul li {
+  list-style-type: none;
+  font-size: 3.9rem;
+}
+#nav ul {
+  display: flex;
+  font-family: "Estonia", cursive;
+  font-family: "Praise", cursive;
+}
+#nav ul li a {
+  color: thistle;
+  display: block;
+  padding: 3px 23px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#nav ul li a:hover {
+  color: rgb(247, 5, 226);
+  background-color: palevioletred;
+  
+}
+.h1 {
+  color: rgb(248, 123, 248);
+  font-size: 7rem;
+  font-family: "Fleur De Leah", cursive;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  position: absolute;
+  border: 2px solid rgb(210, 228, 176);
+  height: 450px;
+  width: 400px;
+  margin: 70px;
+}
+.card img {
+  height: 120px;
+  padding: 4px 100px;
+  width: 200px;
+}
+.card div {
+  color: rgb(219, 175, 219);
+  padding: 10px 130px;
+  font-size: 1.6rem;
+  font-family: "Estonia", cursive;
+  font-family: "Praise", cursive;
+  text-align: center;
+}
+.p {
+  height: 70px;
+  font-family: "Fleur De Leah", cursive;
+  color: lightcyan;
+  font-size: 2rem;
+}
+.mid {
+  display: block;
+  width: 36%;
+  margin: 10px auto;
+}
+.right {
+  position: absolute;
+  right: 550px;
+  display: inline-block;
+}
+.left {
+  margin: 500px 0px;
+}
+.mid2 {
+  margin: 503px 486px;
+}
+.right2 {
+  margin: 503px 970px;
+}
+.center 
+{
+  background-color: black;
+  color: white;
+  /*margin:1030px 0px;*/
+  padding: 9px 20px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
